@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5908fc9f-fb7a-4edb-b03f-e8ca5e3f5876" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Api-gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/Adapter/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/Adapter/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/Adapter/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/ApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/PasswordEncoderconfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/Repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/client/UserFallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/client/UserServiceClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/contoller/AuthenticationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/contoller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/entity/JWTresponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/entity/UserCredentialsDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/entity/UserCredentialsDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/filter/PreFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/service/UserServiceimpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/util/CustomErrorMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/util/JwtTokenUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/jpop/Apigateway/util/ResponseEntityUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/resources/db.changelog/changelog-master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/resources/db.changelog/changes/alter-change.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/resources/db.changelog/changes/create-userCredentials-table-changelog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/test/java/com/jpop/Apigateway/ApiGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpop/Apigateway/config/CorsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpop/Apigateway/config/CorsConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/training/APIGateway/ApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/training/APIGateway/filters/PostFilters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/training/APIGateway/filters/PreFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/training/APIGateway/filters/RouteFilters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/training/APIGateway/security/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/training/APIGateway/security/JwtConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/training/APIGateway/security/JwtTokenAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/training/APIGateway/security/SecurityTokenConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/training/APIGateway/ApiGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWTSecurity/src/main/java/com/training/JWTSecurity/config/JwtConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-service/src/main/java/com/Training/JwtConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-service/src/main/java/com/eureka/commonservice/security/JwtConfiguration.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1bW96SjMZAueISj8agIz5ImWpdm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.jpop.Apigateway.service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jpop.Apigateway.util" />
+      <recent name="com.jpop.Apigateway.Repository" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jpop.Apigateway.config" />
+      <recent name="com.jpop.Apigateway.util" />
+      <recent name="com.jpop.Apigateway.client" />
+      <recent name="com.jpop.Apigateway.entity" />
+      <recent name="com.jpop.Apigateway" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shreejaa\Desktop\Api-gateway\Api-gateway\src\main\resources" />
+      <recent name="C:\Users\Shreejaa\Desktop\Api-gateway\Api-gateway\src\main\java\com\jpop\Apigateway" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jpop.Apigateway.ApiGatewayApplication" />
+      <module name="Api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jpop.Apigateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApiGatewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5908fc9f-fb7a-4edb-b03f-e8ca5e3f5876" name="Default Changelist" comment="" />
+      <created>1588736807211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588736807211</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="829" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1588943058195">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="829" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1588943058195" />
+    <state x="256" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589806908830">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="256" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1589806908830" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588941120703">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588941120703" />
+    <state width="430" height="466" key="DebuggerActiveHint" timestamp="1589374360888">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="430" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1589374360888" />
+    <state x="804" y="118" key="FileChooserDialogImpl" timestamp="1590576331083">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="804" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590576331083" />
+    <state width="1322" height="301" key="GridCell.Tab.0.bottom" timestamp="1590600026461">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="301" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590600026461" />
+    <state width="1322" height="301" key="GridCell.Tab.0.center" timestamp="1590600026461">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="301" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590600026461" />
+    <state width="1322" height="301" key="GridCell.Tab.0.left" timestamp="1590600026461">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="301" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590600026461" />
+    <state width="1322" height="301" key="GridCell.Tab.0.right" timestamp="1590600026461">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="301" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590600026461" />
+    <state width="1322" height="200" key="GridCell.Tab.1.bottom" timestamp="1589396923055">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="200" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589396923055" />
+    <state width="1322" height="200" key="GridCell.Tab.1.center" timestamp="1589396923054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="200" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589396923054" />
+    <state width="1322" height="200" key="GridCell.Tab.1.left" timestamp="1589396923054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="200" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589396923054" />
+    <state width="1322" height="200" key="GridCell.Tab.1.right" timestamp="1589396923055">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="200" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589396923055" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1589370940785">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589370940785" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1590548748633">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590548748633" />
+    <state x="795" y="81" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588738619107">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="795" y="81" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588738619107" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jpop/Apigateway/Adapter/JwtAuthenticationFilter.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jpop/Apigateway/Adapter/JwtAuthenticationFilter.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jpop/Apigateway/Adapter/JwtAuthenticationFilter.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jpop/Apigateway/contoller/AuthenticationController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jpop/Apigateway/util/JwtTokenUtil.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

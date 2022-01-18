@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.jpop.Apigateway.ApiGatewayApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 63.725 s - in com.jpop.Apigateway.ApiGatewayApplicationTests
